@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/01_EurekaClient/pom.xml" />
         <option value="$PROJECT_DIR$/01_EurekaProvider/pom.xml" />
         <option value="$PROJECT_DIR$/01_EurekaConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/01_EurekaServerCluster_01/pom.xml" />
+        <option value="$PROJECT_DIR$/01_EurekaServerCluster_02/pom.xml" />
       </list>
     </option>
   </component>

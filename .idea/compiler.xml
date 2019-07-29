@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NacosStudy" />
-        <module name="01_EurekaProvider" />
         <module name="01_EurekaConsumer" />
         <module name="01_EurekaServer" />
+        <module name="NacosStudy" />
+        <module name="01_EurekaProvider" />
+        <module name="01_EurekaServerCluster_02" />
+        <module name="01_EurekaServerCluster_01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/01_EurekaConsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01_EurekaProvider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01_EurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_EurekaServerCluster_01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_EurekaServerCluster_02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NacosStudy" charset="UTF-8" />
   </component>
 </project>

@@ -10,7 +10,9 @@
     <modules>
         <module>NacosStudy</module>
         <module>01_EurekaServer</module>
-        <module>01_EurekaClient</module>
+        <module>01_EurekaConsumer</module>
+        <module>01_EurekaServerCluster_01</module>
+        <module>01_EurekaServerCluster_02</module>
     </modules>
 
 
