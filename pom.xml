@@ -13,6 +13,12 @@
         <module>01_EurekaConsumer</module>
         <module>01_EurekaServerCluster_01</module>
         <module>01_EurekaServerCluster_02</module>
+        <module>02_ConsulProvider</module>
+        <module>02_ConsulConsumer</module>
+        <module>03_ZkProvider</module>
+        <module>03_ZkConsumer</module>
+        <module>04_NacosProvider</module>
+        <module>04_NacosConsumer</module>
     </modules>
 
 

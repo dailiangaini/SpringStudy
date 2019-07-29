@@ -9,7 +9,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8100/eureka
+#      defaultZone: http://localhost:8100/eureka
+      defaultZone: http://localhost:8110/eureka,http://localhost:812s0/eureka
 
     ###因为该应用为注册中心，不会注册自己
     register-with-eureka: true

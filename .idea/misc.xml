@@ -10,6 +10,12 @@
         <option value="$PROJECT_DIR$/01_EurekaConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/01_EurekaServerCluster_01/pom.xml" />
         <option value="$PROJECT_DIR$/01_EurekaServerCluster_02/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ConsulProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/02_ConsulConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/03_ZkProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/03_ZkConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NacosProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/04_NacosConsumer/pom.xml" />
       </list>
     </option>
   </component>
