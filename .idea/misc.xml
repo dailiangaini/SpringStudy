@@ -16,6 +16,10 @@
         <option value="$PROJECT_DIR$/03_ZkConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/04_NacosProvider/pom.xml" />
         <option value="$PROJECT_DIR$/04_NacosConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/05_FeignConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/06_FeignConsumer_01/pom.xml" />
+        <option value="$PROJECT_DIR$/06_HystrixFeignConsumer_01/pom.xml" />
+        <option value="$PROJECT_DIR$/06_HystrixFeignConsumer_02/pom.xml" />
       </list>
     </option>
   </component>

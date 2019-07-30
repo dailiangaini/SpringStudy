@@ -6,22 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="04_NacosConsumer" />
-        <module name="01_EurekaConsumer" />
-        <module name="03_ZkProvider" />
-        <module name="01_EurekaServer" />
+        <module name="03_ZkConsumer" />
         <module name="02_ConsulConsumer" />
-        <module name="NacosStudy" />
+        <module name="01_EurekaServer" />
+        <module name="06_HystrixFeignConsumer_02" />
+        <module name="04_NacosProvider" />
         <module name="01_EurekaProvider" />
+        <module name="02_ConsulProvider" />
+        <module name="05_FeignConsumer" />
+        <module name="06_HystrixFeignConsumer_01" />
+        <module name="03_ZkProvider" />
+        <module name="NacosStudy" />
+        <module name="01_EurekaConsumer" />
+        <module name="04_NacosConsumer" />
         <module name="01_EurekaServerCluster_02" />
         <module name="01_EurekaServerCluster_01" />
-        <module name="04_NacosProvider" />
-        <module name="02_ConsulProvider" />
-        <module name="03_ZkConsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_EurekaClent" target="1.8" />
+      <module name="05_FeignConsumer (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

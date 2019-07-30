@@ -13,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/03_ZkProvider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NacosConsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04_NacosProvider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_FeignConsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_HystrixFeignConsumer_01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_HystrixFeignConsumer_02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NacosStudy" charset="UTF-8" />
   </component>
 </project>

@@ -19,6 +19,9 @@
         <module>03_ZkConsumer</module>
         <module>04_NacosProvider</module>
         <module>04_NacosConsumer</module>
+        <module>05_FeignConsumer</module>
+        <module>06_HystrixFeignConsumer_01</module>
+        <module>06_HystrixFeignConsumer_02</module>
     </modules>
 
 
