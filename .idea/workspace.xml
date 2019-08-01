@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db06155-e563-497b-9179-219d950f5651" name="Default Changelist" comment="增加Consul、Zookeeper、Nacos作为注册中心">
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/src/main/java/com/dailiang/ConfigClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/src/main/java/com/dailiang/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigClient/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigServer/src/main/java/com/dailiang/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_ConfigServer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/src/main/java/com/dailiang/study/NacosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/src/main/java/com/dailiang/study/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/NacosStudy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_NacosConfig/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="3db06155-e563-497b-9179-219d950f5651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/08_Zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/src/main/java/com/dailiang/Filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/src/main/java/com/dailiang/Zuul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/target/01_EurekaClient-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Zuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/src/main/java/com/dailiang/Filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/src/main/java/com/dailiang/ZuulDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/target/01_EurekaClient-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulDynamic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/src/main/java/com/dailiang/ZuulEurekaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/src/main/java/com/dailiang/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_ZuulEurekaConsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_EurekaProvider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/01_EurekaProvider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosStudy/NacosStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_EurekaProvider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/01_EurekaProvider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_ConfigClient/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_ConfigClient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_ConfigServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/07_ConfigServer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosStudy/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/NacosStudy/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +79,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/NacosStudy/src/main/resources/bootstrap.properties" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08_ZuulNacos/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -88,10 +96,11 @@
       <recent name="com.dailiang.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08_ZuulNacos/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/08_ZuulDynamic/src/main/resources" />
       <recent name="$PROJECT_DIR$/07_ConfigClient/src/main/resources" />
       <recent name="$PROJECT_DIR$/01_EurekaServer/src/main/resources" />
-      <recent name="$PROJECT_DIR$/NacosStudy/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfig">
+  <component name="RunManager" selected="Spring Boot.ZuulNacos">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -127,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="07_ConfigClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dailiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.ConfigClient" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConfigService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="07_ConfigServer" />
       <extension name="coverage">
@@ -153,41 +149,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="01_EurekaProvider" />
+    <configuration name="Zuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08_Zuul" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dailiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.EurekaProvider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.Zuul" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixFeignConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="06_HystrixFeignConsumer_02" />
+    <configuration name="ZuulDynamic" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08_ZuulDynamic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dailiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.HystrixFeignConsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.ZuulDynamic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConfig" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="08_NacosConfig" />
+    <configuration name="ZuulEurekaConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08_ZuulEurekaConsumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dailiang.study.*" />
+          <option name="PATTERN" value="com.dailiang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.study.NacosConfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.ZuulEurekaConsumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulNacos" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08_ZuulNacos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dailiang.ZuulNacos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,19 +212,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AppEureka" />
-      <item itemvalue="Spring Boot.EurekaProvider" />
-      <item itemvalue="Spring Boot.HystrixFeignConsumer (1)" />
       <item itemvalue="Spring Boot.ConfigService" />
-      <item itemvalue="Spring Boot.ConfigClient" />
-      <item itemvalue="Spring Boot.NacosConfig" />
+      <item itemvalue="Spring Boot.Zuul" />
+      <item itemvalue="Spring Boot.ZuulEurekaConsumer" />
+      <item itemvalue="Spring Boot.ZuulDynamic" />
+      <item itemvalue="Spring Boot.ZuulNacos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosConfig" />
-        <item itemvalue="Spring Boot.ConfigClient" />
+        <item itemvalue="Spring Boot.ZuulEurekaConsumer" />
+        <item itemvalue="Spring Boot.ZuulNacos" />
+        <item itemvalue="Spring Boot.ZuulDynamic" />
         <item itemvalue="Spring Boot.ConfigService" />
-        <item itemvalue="Spring Boot.HystrixFeignConsumer (1)" />
-        <item itemvalue="Spring Boot.EurekaProvider" />
+        <item itemvalue="Spring Boot.Zuul" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +246,7 @@
       <workItem from="1564490780344" duration="4024000" />
       <workItem from="1564548388702" duration="103000" />
       <workItem from="1564549413714" duration="82000" />
-      <workItem from="1564549513007" duration="7329000" />
+      <workItem from="1564549513007" duration="12415000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1564387659858</created>
@@ -260,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564410116298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加Config">
+      <created>1564635093413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564635093413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,7 +322,8 @@
     <MESSAGE value="初始化项目" />
     <MESSAGE value="增加Eureka高可用；关闭Eureka自我保护" />
     <MESSAGE value="增加Consul、Zookeeper、Nacos作为注册中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Consul、Zookeeper、Nacos作为注册中心" />
+    <MESSAGE value="增加Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +352,16 @@
           <url>file://$PROJECT_DIR$/07_ConfigClient/src/main/java/com/dailiang/controller/ConfigController.java</url>
           <line>20</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/08_ZuulDynamic/src/main/java/com/dailiang/Filter/MyFilter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/08_ZuulNacos/src/main/java/com/dailiang/Filter/MyFilter.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -25,6 +25,9 @@
         <module>07_ConfigServer</module>
         <module>07_ConfigClient</module>
         <module>07_NacosConfig</module>
+        <module>08_Zuul</module>
+        <module>08_ZuulDynamic</module>
+        <module>08_ZuulEurekaConsumer</module>
     </modules>
 
 

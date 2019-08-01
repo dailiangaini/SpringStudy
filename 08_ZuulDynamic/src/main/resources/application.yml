@@ -1,0 +1,6 @@
+###服务端口号
+server:
+  port: 8803
+
+
+## ==> CloudConfigClient => Eureka服务 ==> CloudConfigService获取网关配置和过滤器

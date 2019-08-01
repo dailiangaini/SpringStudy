@@ -24,3 +24,4 @@ spring:
       label: master
 
 ## 访问地址：http://127.0.0.1:8701/cloud-config-dev.yml
+## http://127.0.0.1:8701/cloud-config/dev

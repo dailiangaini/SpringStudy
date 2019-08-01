@@ -1,6 +1,7 @@
 spring:
   application:
-    name: example
+    #配置文件名称为zuul-nacos.ymls
+    name: zuul-nacos
   cloud:
     nacos:
       config:

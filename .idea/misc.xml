@@ -27,6 +27,9 @@
         <option value="$PROJECT_DIR$/07_ConfigClient/pom.xml" />
         <option value="$PROJECT_DIR$/08_NacosConfig/pom.xml" />
         <option value="$PROJECT_DIR$/07_NacosConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/08_Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/08_ZuulEurekaConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/08_ZuulDynamic/pom.xml" />
       </list>
     </option>
   </component>

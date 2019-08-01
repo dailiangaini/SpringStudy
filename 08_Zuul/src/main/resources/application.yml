@@ -1,0 +1,17 @@
+###注册 中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+server:
+  port: 8801
+###网关名称
+spring:
+  application:
+    name: zuul
+### 配置网关反向代理
+zuul:
+  routes:
+    eureka-provider:
+      path: /**
+      serviceId: eureka-provider
