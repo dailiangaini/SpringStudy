@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -20,6 +23,10 @@
         <option value="$PROJECT_DIR$/06_FeignConsumer_01/pom.xml" />
         <option value="$PROJECT_DIR$/06_HystrixFeignConsumer_01/pom.xml" />
         <option value="$PROJECT_DIR$/06_HystrixFeignConsumer_02/pom.xml" />
+        <option value="$PROJECT_DIR$/07_ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/07_ConfigClient/pom.xml" />
+        <option value="$PROJECT_DIR$/08_NacosConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/07_NacosConfig/pom.xml" />
       </list>
     </option>
   </component>

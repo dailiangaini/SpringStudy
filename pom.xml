@@ -22,6 +22,9 @@
         <module>05_FeignConsumer</module>
         <module>06_HystrixFeignConsumer_01</module>
         <module>06_HystrixFeignConsumer_02</module>
+        <module>07_ConfigServer</module>
+        <module>07_ConfigClient</module>
+        <module>07_NacosConfig</module>
     </modules>
 
 

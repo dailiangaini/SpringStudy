@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: example
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 10.0.41.20:8848
+        enabled: true
+
+      discovery:
+        server-addr: 10.0.41.20:8848
+        # 如果没有安装nacos服务，请设置为false
+        enabled: false

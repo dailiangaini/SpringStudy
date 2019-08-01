@@ -1,0 +1,41 @@
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+
+spring:
+  application:
+    ####注册中心应用名称
+    name: config-client
+
+  cloud:
+    config:
+      ####读取后缀
+      profile: dev
+      label: master  #指定分支
+      ####读取config-server注册地址
+#      uri: http://localhost:8701/
+      discovery:
+        service-id: config-server
+        enabled: true
+####    eureka服务注册地址
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#说明：
+#  service-id =》 Eureka 中注册的服务名称
+#  可以不用加@EnableEurekaClient
+#  加@RefreshScope，必须加
+#      management:
+#        endpoints:
+#          web:
+#            exposure:
+#              include: "*"
+
+
