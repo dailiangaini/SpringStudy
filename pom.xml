@@ -28,6 +28,7 @@
         <module>08_Zuul</module>
         <module>08_ZuulDynamic</module>
         <module>08_ZuulEurekaConsumer</module>
+        <module>09_Gateway</module>
     </modules>
 
 

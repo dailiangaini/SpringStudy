@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/08_Zuul/pom.xml" />
         <option value="$PROJECT_DIR$/08_ZuulEurekaConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/08_ZuulDynamic/pom.xml" />
+        <option value="$PROJECT_DIR$/09_Gateway/pom.xml" />
       </list>
     </option>
   </component>
